@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -48,6 +49,21 @@ function App() {
         <Footer />
       </div>
     </Router>
+=======
+import Header from './Header';
+import Nav from './Nav';
+import Main from './Main';
+import Footer from './Footer';
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </>
+>>>>>>> 8efa3508fcd725cb3dbb4f071088b9ddf0967e87
   );
 }
 

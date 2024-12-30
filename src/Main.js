@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useReducer } from "react";
 import BookingForm from "./BookingForm";
 
@@ -27,6 +28,10 @@ function Main() {
       <BookingForm availableTimes={availableTimes} dispatch={dispatch} />
     </main>
   );
+=======
+function Main() {
+  return <main>Main Content</main>;
+>>>>>>> 8efa3508fcd725cb3dbb4f071088b9ddf0967e87
 }
 
 export default Main;
