@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // src/Nav.js
 import React from 'react';
 import { Link } from 'react-router-dom';  // Link import
@@ -22,20 +21,3 @@ function Nav() {
 }
 
 export default Nav;
-=======
-function Nav() {
-    return (
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    );
-  }
-  
-  export default Nav;
-  
->>>>>>> 8efa3508fcd725cb3dbb4f071088b9ddf0967e87

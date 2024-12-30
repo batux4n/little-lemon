@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -7,31 +5,17 @@ import Hero from './Hero';
 import Highlights from './Highlights';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
-import Main from './Main'; // Import the BookingForm component
+import Main from './Main'; // Import the Main component
+import Header from './Header'; // Import Header component
+import Nav from './Nav'; // Import Nav component
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* Navigation Bar */}
-        <nav>
-          <div className="logo">
-            <img src="logo.png" alt="Little Lemon Logo" />
-          </div>
-          <div className="nav-links">
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/menu">Menu</a></li>
-              <li><a href="/reservations">Reservations</a></li>
-              <li><a href="/order">Order Online</a></li>
-              <li><a href="/login">Login</a></li>
-            </ul>
-          </div>
-        </nav>
-
-        {/* Add "learn react" link for testing */}
-        <a href="https://reactjs.org">learn react</a>
+        {/* Header and Navigation Bar */}
+        <Header />
+        <Nav />
 
         {/* Routes for navigation */}
         <Routes>
@@ -49,21 +33,6 @@ function App() {
         <Footer />
       </div>
     </Router>
-=======
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
-
-function App() {
-  return (
-    <>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
-    </>
->>>>>>> 8efa3508fcd725cb3dbb4f071088b9ddf0967e87
   );
 }
 
